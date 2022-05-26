@@ -1,0 +1,128 @@
+
+
+
+<rigistry-open-data>
+	<data>
+<kids-program>
+	<type> cancer</type>F
+	<generation> genetic</generation>
+	<genetic>genomic</genetic>
+	<humanity> homo sapiens</humanity>
+	<biology> life science</biology>
+	<medicine>pediatrics</medicine>
+	<progress> strides</progress>
+	<congenital> structural birth defects</congenital>
+	<usage> 20</usage>
+	<DNA> WGS</DNA>
+</kids-program>
+<digital-collection>
+	<cultivation>agriculture</cultivation>
+	<differencial>cog</differencial>
+	<crisiszone>Disaster response</crisiszone>
+	<check> earth observation </check>
+	<geoscientific>geo spatial</geoscientific>
+	<timber>natural resources</timber>
+	<image>satellite imagenary</image>
+	<pile> stac</pile>
+	<defensible>sustainability</defensible>
+	<terms>deafrica</terms>
+</digital-collection>
+<Neuroimagenary>
+	<concentration>calcium imaging</concentration>
+	<LM>electron microscope</LM>
+	<medicine> liife sciences </medicine>
+	<process>life-sheet microscopy</process>
+	<scanning>magnetic resonance imaging</scanning>
+	<medical-imaging>neuroimaging</medical-imaging>
+	<psychology>neuroscience</psychology>
+    <imaging>volumetric imaging</imaging>
+    <radiograph> x-tray</radiograph>
+    <graph>x-ray tomography</graph>
+</Neuroimagenary>
+<Foldingathome>
+	<resources> Covid Hub </resources>
+	<resourcetype> S3 Bucket</resourcetype>
+	<Resourcename>arn:aws:s3:::fah-public-data-covid19-cryptic-pockets</Resourcename>
+	<region>us-east-2</region>
+	<access>aws s3 ls --no-sign-request s3://fah-public-data-covid19-cryptic-pockets/</access>
+	<tutorials>Folding@home Covid-19 efforts</tutorials>
+	<cite>https://registry.opendata.aws/foldingathome-covid 19.</cite>
+	<frequency>datasets will be updated periodecally</frequency>
+	<license>CCO</license>
+	<documentation>https://github.com/FoldingAtHome/coronavirus</documentation>
+</Foldingathome>
+<common-crawl>
+	<update>monthly</update>
+	<license>Common Crawl Term of Use</license>
+	<Documentation>https://commoncrawl.org/the-data/get-started/</Documentation>
+    <manageby>common crawl</manageby>
+    <contact>https://commoncrawl.org/connect/contact-us/</contact>
+    <cite>https://registry.opendata.aws/commoncrawl.</cite>
+    <tutorial>Analysing Petabytes of Websites by Mark Litwintschik</tutorial>
+    <description>Crawl data (WARC and ARC format)</description>
+    <type>S3 Bucket</type>
+    <Amazon-name>arn:aws:s3:::commoncrawl</Amazon-name>
+</common-crawl>
+<Sudachi-Language>
+	<resourcestype>S3 Bucket</resourcestype>
+	<ARN>arn:aws:s3:::sudachi</ARN>
+	<AWSregion>ap-northeast-1</AWSregion>
+	<account>aws s3 ls --no-sign-request s3://sudachi/</account>
+	<license>Apache-2.0</license>
+	<documentation>https://worksapplications.github.io/Sudachi/</documentation>
+	<managed>Works Application</managed>
+	<contact>sudachi@worksap.co.jp</contact>
+	<citation>https://registry.opendata.aws/sudachi.</citation>
+	<tools>analysis-sudachi: Sudachi pluglin for Elasticsearch </tools>
+</Sudachi-Language>
+<sentinel-2>
+	<license>with terms and condition</license>
+	<documentation>Documentation is available for Sentinel-2 L1C and Sentinel-2 L2A.</documentation>
+	<manageby>Sinergise</manageby>
+	<citation>Sentinel-2 was accessed on DATE from https://registry.opendata.aws/sentinel-2.</citation>
+	<contact>https://forum.sentinel-hub.com/c/aws-sentinel</contact>
+	<describe>S3 Inventory files for L1C (ORC and CSV)</describe>
+	<resourcestype>S3 Bucket</resourcestype>
+	<resource>arn:aws:s3:::sentinel-inventory/sentinel-s2-l1c</resource>
+	<access>aws s3 ls --no-sign-request s3://sentinel-inventory/sentinel-s2-l1c/</access>
+	<region>eu-central-1</region>
+</sentinel-2>
+<Genome-Aggregation>
+	<description>gnomAD summary data aggregated from large-scale human genome and exome sequencing projects.</description>
+	<resourcetype>S3 Bucket</resourcetype>
+	<resourcename>arn:aws:s3:::gnomad-public-us-east-1</resourcename>
+	<region>us-east-1</region>
+	<acess>aws s3 ls --no-sign-request s3://gnomad-public-us-east-1/</acess>
+	<license>MIT; terms of use</license>
+	<documentation>https://gnomad.broadinstitute.org/about</documentation>
+	<manageby>gnomAD Production Team at the Broad Institute</manageby>
+    <contact>gnomad@broadinstitute.org</contact>
+    <cite>https://registry.opendata.aws/broad-gnomad</cite>
+</Genome-Aggregation>
+
+<Catch-data>
+<description>Global fisheries</description>
+<frequency>Updated</frequency>
+<license>Sea around us terms of use </license>
+<documentation>https://www.seaaroundus.org/ubc-cic-sea-around-us-project-collaboration/</documentation>
+<manageby> Sea Around us</manageby>
+<resourcetype>S3 BUCKET</resourcetype>
+<Resourcename>arn:aws:s3:::fisheries-catch-data</Resourcename>
+<region>us-west-2</region>
+<acess>aws s3 ls --no-sign-request s3://fisheries-catch-data/</acess>
+<cite>https://www.seaaroundus.org/citation-policy/</cite>
+</Catch-data>
+<swdi>
+<update>monthly</update>
+<documentation>https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00773</documentation>
+<manageby>NOAA</manageby>
+<contact>noaa.bdp@noaa.gov</contact>
+<DATE>https://registry.opendata.aws/noaa-swdi.</DATE>
+<description>NOAA Severe Weather Data Inventory Dataset (SWDI)</description>
+<resourcestype>S3 Bucket</resourcestype>
+<resourcename>arn:aws:s3:::noaa-swdi-pds</resourcename>
+<region>us-east-1</region>
+<access>aws s3 ls --no-sign-request s3://noaa-swdi-pds/</access>
+</swdi>
+</data>
+</rigistry-open-data>
